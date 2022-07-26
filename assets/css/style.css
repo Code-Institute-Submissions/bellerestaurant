@@ -1,3 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Lato:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+}
+
+/*headings and logos*/
+
+h1, h2 {
+    font-family: Cormorant, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 40px;
+}
+
+/*navigation links*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+
+}
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#pizza-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: pink;
+}
+
+#pizza-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images1/three-pizzas.jpeg) no-repeat center center;
+    /*animates zoon effect on loading page*/
+    animation-name: pizza-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+/*creates the level of zoom for pizza image*/
+@keyframes pizza-zoom {
+    from{
+transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Cormorant, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(180, 15, 13, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+
+/* menus */
+.all-menus {
+    list-style: none;
+
+
+}
+#food-menus {
+    height: 600px;
+    text-align: left;
+    letter-spacing: 2px;
+   
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.ul.no-bullets {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    display: inline-block;
+}
+
+.left {
+    text-align: center; 
+    width:33%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#welcome {
+    text-align: left;
+    margin-left: 10%;
+    color: black;
+    line-height: 30px;
 }
