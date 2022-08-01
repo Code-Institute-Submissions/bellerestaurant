@@ -39,12 +39,11 @@
     </a>
     <nav id="menu">
         <ul id="menu">
-           
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#bookings">Bookings</a></li>
-            <li><a href="#food-menu">Food Menu</a></li>
-            <li><a href="#index.html" class="active">Home</a></li>
+            <li><a class="nav" href="#contact">Contact Us</a></li>
+            <li><a class="nav" href="#review-container">Review</a></li>
+            <li><a class="nav" href="#booking">Bookings</a></li>
+            <li><a class="nav" href="#foodmenu">Food Menu</a></li>
+            <li><a class="nav" href="#index.html" class="active">Home</a></li>
         </ul>
     </nav>
 </header>
@@ -55,7 +54,8 @@
     <h2>Belle Restaurant</h2>
     <h3>18 Doughiska Road, Co. Galway</h3>
     <p>A taste of Italy..</p>
-    <p>In the heart of Galway City</p>
+    <br>
+    <p>In the heart of Galway City!</p>
  </div>
  </section>
  <br>
@@ -73,13 +73,13 @@
 
 <br>
 
-<section class=“menu”>
-    <h1 class="menu1">Menu</h1>
-  <div class="menu1">
+<section id=“foodmenu”>
+    <h1>Menu</h1>
+  <div class="menu">
 <h3>Light Bites</h3>
 <p>
     
-            <ul class="menu-li">
+            <ul class="left">
                 <li>Chicken Wings</li>
                 <li>Mozzarella Sticks</li>
                 <li>Italian Pasta Salad</li>
@@ -97,7 +97,7 @@
             <h3>Main Course</h3>
     <br>
             <p>
-        <ul class="ul.no-bullets">
+        <ul class="left">
             <li>Spaghetti Carbonara</li>
             <li>Penne Arabiata</li>
             <li>Ham & Mushroom Tagliatelle</li>
@@ -114,7 +114,7 @@
             <h3>Pizza Menu</h3>
           <br>
             <p>
-            <ul class="ul.no-bullets">
+            <ul class="left">
                 <li>Margherita Pizza (cheese)</li>
                 <li>Meat Feast (chicken, chorizo, ham, salami, pepperoni & chili minced beef)</li>
                 <li>Vegatarian Italiana (mushroom, bell peppers, onion, sweet corn, & olives)</li>
@@ -127,58 +127,51 @@
 
 <div class="parallax"><img src="assets/images1/shrimp-pizza.jpg" alt="man cooking italian food" height="800px" width="100%"></div>
 
-<div class=“recipe-img”>
-<div class=“text3”>
-<span class=“border”>Bookings</span>
-</div>
-</div>
+<br> 
 
-
-<div class=“container”>
-<div class=“time-container”
-<h1 class=“heading”>Dine with Us!</h1>
-<h3 class=“days”>Opening Hours</h3>
+<section>
+<div id=“container”>
+<div class=“time-container”>
+<h4><strong>Opening Hours</strong></h4>
 <p>Tuesday - Thursday 4pm - 10pm</p>
 <p>Friday & Saturday 4pm - 12am</p>
-
-<hr>
-<h4 class=“phone”>Contact Us For Bookings: +353884758199</h4>
+</div>
 </div>
 </section>
 
-<section>
-<div class=“booking-form”>
+<section id="booking">
+<div class=“field”>
 <form method=“post” action=“mailto:management@bellerestaurant.com”>
 <h2 class=“heading”>Book Your Table!</h2>
 
 <div class=“form”>
 <label for=“name-field”>Your Name:</label>
-<input id=“name-field” type=“text” name=“full_name”>
+<input id=“name-field” class="field" type=“text” name=“full_name” required>
 
 <div class=“form”>
 <label for=“phone”>Contact Number:</label>
-<input id=“phone” type=“text” name=“phone_number”>
+<input id=“phone” class="field" type=“text” name=“phone_number” required>
 </div>
 
 <div class=“form”>
 <label for=“email”>Email:</label>
-<input id=“email” type=“email” name=“email_address”>
+<input id=“email” class="field" type=“email” name=“email_address” required>
 </div>
 
 <div class=“form”>
-<label for=“date”>Date</label>
-<input id=“date” type=“date” name=“date-to-book”>
+<label for=“date”>Date:</label>
+<input id=“date” class="field" type=“date” name=“date-to-book” required>
 </div>
 
 
-<div class=“form”>
-<label for=“times”>Available Times:</label>
-<input id=“times” type=“time” name=“time_available”>
+<div>
+<label for=“appt”>Preferred Time:</label><small>Opening hours are 4pm to 12am</small>
+<input type=“time” id="appt" class="field" name=“time_available” min="16:00" max="00:00" required>
 </div>
 
-<div class=“form”>
+<div>
 <label for=“group”>Group Size:</label>
- <input id=“one” name=“people” type="radio" value=“one-person”>
+ <input id=“one” name=“people” type="radio" value=“one-person” required>
             <label for=“one”>1 Person</label>
             <input id=“two” name=“people” type="radio" value=“two-people”>
             <label for=“two”>Two People</label>
@@ -188,25 +181,56 @@
             <label for=“four”>Four People</label>
 </div>
 
-<input type=“submit”>
+<button class="btn">Send</button>
 </form>
 </section>
 
 <section>
-    <div class="container">
+    <form>
+    <div id="review-container">
 <h1><strong>Leave A Review!</strong></h1>
 <h3>We would love your feedback!</h3>
-<input type="text" class="field" placeholder="Your Name">
-<input type="text" class="field" placeholder="Your Email">
-<input type="text" class="field" placeholder="Your Phone">
-<textarea placeholder="Your Review!" class="field"></textarea>
+<input type="text" class="field" name="fname" placeholder="Your Name" required>
+<input type="email" class="field" name="email" placeholder="Your Email" required>
+<input type="text" class="field" name="phone" placeholder="Your Phone" required>
+<input type="text" placeholder="Your Review!" name="reviews" class="field" required></textarea>
 <button class="btn">Send</button>
+    </div>
+    </form>
+</section>
+
+<br> 
+
+<div>
+    <h4><strong>Have fun with making your own pizzas!</strong></h4>
+    <p>Below is a short, fun video on Jamie Oliver's Youtube channel so you can make your own delicious homemade pizzas at home!</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1-SJGQ2HLp8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+ 
+<br>
+<section>
+    <div id="contact">
+        <h4 class=“phone”>Contact Us For Bookings: +353884758199</h4>
+        <h4 class="email">Contact Us For Queries: management@bellerestaurant.com</h4>
+        <a href="www.facebook.com" class="fa fa-facebook" target="_blank">Find us on Facebook!</a>
+        <br>
+    <a href="www.instagram.com" class="fa fa-instagram" target="_blank">Find us on Instagram</a>
+    <br>
+    <a href="www.twitter.com" class="fa fa-twitter" target="_blank">Find us on Twitter</a>
+</div>
     </div>
 </section>
 
 <footer>
-    <a href="www.facebook.com" class="fa fa-facebook" target="_blank">Find us on Facebook!</a>
-    <a href="www.instagram.com" class="fa fa-instagram" target="_blank">Find us on Instagram</a>
-    <a href="www.twitter.com" class="fa fa-twitter" target="_blank">Find us on Twitter</a>
+    <div class="footer">
+    <br>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9541.360506668794!2d-8.992474757567882!3d53.28344200810858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b9116cc56c153%3A0x1800c7a937df1dc0!2sDoughiska%2C%20Co.%20Galway!5e0!3m2!1sen!2sie!4v1659343558458!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
+    <p>Belle Restaurant, 18 Doughiska Road, Co. Galway</p>
+    <br>
+    <a href="www.facebook.com" class="fa fa-facebook" target="_blank">Find us on Facebook!</a>
+    <br>
+<a href="www.instagram.com" class="fa fa-instagram" target="_blank">Find us on Instagram</a>
+<br>
+<a href="www.twitter.com" class="fa fa-twitter" target="_blank">Find us on Twitter</a>
+</div>
 </footer>
