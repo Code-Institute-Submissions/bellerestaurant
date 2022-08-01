@@ -106,3 +106,6 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+![three-pizzas](https://user-images.githubusercontent.com/106196417/182088262-b2d1c787-d5dd-410a-9cbb-8bf9d447e821.jpeg)
+
