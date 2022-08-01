@@ -18,13 +18,14 @@
 <style>
     .parallax {
       /* The image used */
-      background-image: url(../bellerestaurant/assets/images1/pexels-klaus-nielsen-6287230.jpg);
+      background-image: url(../bellerestaurant/assets/images1/shrimp-pizza.jpg) no-repeat center center;
     
       /* Set a specific height */
-      min-height: 400px;
+      min-height: 10px;
+      width: 100%;
     
       /* Create the parallax scrolling effect */
-      background-attachment: fixed;
+      background-attachment: scroll;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -36,14 +37,14 @@
     <header>
         <h1 id="logo">Belle Restaurant</h1>
     </a>
-    <nav id="main-menu">
+    <nav id="menu">
         <ul id="menu">
            
             <li><a href="#contact">Contact Us</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#bookings">Bookings</a></li>
             <li><a href="#food-menu">Food Menu</a></li>
-            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#index.html" class="active">Home</a></li>
         </ul>
     </nav>
 </header>
@@ -67,16 +68,18 @@
 
 
 
-<span class=“border”>Menu</span>
 
+<div class="parallax"><img src="assets/images1/cooking.jpg" alt="a man cooking" height="700px" width="100%"></div>
 
-<section id=“food-menu”>
-  <div>
+<br>
+
+<section class=“menu”>
+    <h1 class="menu1">Menu</h1>
+  <div class="menu1">
 <h3>Light Bites</h3>
-            <br>
 <p>
     
-            <ul class="ul.no-bullets">
+            <ul class="menu-li">
                 <li>Chicken Wings</li>
                 <li>Mozzarella Sticks</li>
                 <li>Italian Pasta Salad</li>
@@ -89,7 +92,7 @@
         </p>
         </div>
      
-            <div>
+            <div class="menu">
                 
             <h3>Main Course</h3>
     <br>
@@ -122,7 +125,7 @@
         </p>
 </section>
 
-<div class="parallax">Menu</div>
+<div class="parallax"><img src="assets/images1/shrimp-pizza.jpg" alt="man cooking italian food" height="800px" width="100%"></div>
 
 <div class=“recipe-img”>
 <div class=“text3”>
@@ -133,7 +136,7 @@
 
 <div class=“container”>
 <div class=“time-container”
-<h2 class=“heading”>Book with Us!</h2>
+<h1 class=“heading”>Dine with Us!</h1>
 <h3 class=“days”>Opening Hours</h3>
 <p>Tuesday - Thursday 4pm - 10pm</p>
 <p>Friday & Saturday 4pm - 12am</p>
@@ -188,3 +191,9 @@
 <button type=“submit”></button>
 </form>
 </section>
+
+<footer>
+    <a href="www.facebook.com" class="fa fa-facebook" target="_blank">Find us on Facebook!</a>
+    <a href="www.instagram.com" class="fa fa-instagram" target="_blank">Find us on Instagram</a>
+    <a href="www.twitter.com" class="fa fa-twitter" target="_blank">Find us on Twitter</a>
+</footer>

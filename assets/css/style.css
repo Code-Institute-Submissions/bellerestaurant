@@ -34,6 +34,20 @@ h1, h2 {
 }
 
 /*navigation links*/
+h1, h2 {
+    font-family: Cormorant, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 40px;
+}
+
+/*navigation links*/
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -63,6 +77,18 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
+.menu1 {
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    background-color: blanchedalmond;
+}
+
+
+
+
 
 #pizza-outer {
     height: 600px;
