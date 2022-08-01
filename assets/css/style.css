@@ -1,3 +1,14 @@
+body html
+{
+    Height: 100%;
+    Margin: 0;
+    Font-size: 18px;
+   font-family: Lato, sans-serif;
+    font-weight: 400;
+    color: #3a3a3a;
+    Line-height: 1.6em;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Lato:ital@1&display=swap');
 
 * {
@@ -6,11 +17,6 @@
     border: none;
 }
 
-body {
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-    color: #3a3a3a;
-}
 
 /*headings and logos*/
 
@@ -81,8 +87,6 @@ h1, h2 {
 }
 
 
-
-
 /*creates the level of zoom for pizza image*/
 @keyframes pizza-zoom {
     from{
@@ -100,7 +104,7 @@ transform: scale(1);
     letter-spacing: 4px;
 
     width: 300px;
-    height: 200px;
+    height: 400px;
     padding-top: 40px;
     padding-left: 10px;
 
@@ -112,6 +116,7 @@ transform: scale(1);
     position: absolute;
 }
 
+
 /* menus */
 .all-menus {
     list-style: none;
@@ -120,7 +125,7 @@ transform: scale(1);
 }
 #food-menus {
     height: 600px;
-    text-align: left;
+    text-align: center;
     letter-spacing: 2px;
    
 }
@@ -131,9 +136,9 @@ h3 {
 }
 
 .ul.no-bullets {
-    list-style-type: none; /* Remove bullets */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margins */
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
     display: inline-block;
 }
 
@@ -153,3 +158,25 @@ h3 {
     color: black;
     line-height: 30px;
 }
+
+.container {
+    Background-color: #fafafa;
+    Margin: 200px;
+    Box-shadow: rgba(0, 0, 0, .1);
+    Grid-template-columns: 40% 60%;
+    }
+
+    .time-container {
+        Background-color: rgba(0, 0, 0, .85);
+        Padding:50px;
+        Outline: 5px dashed #3a3a3a;
+        Outline-offset: 20px;
+        Text-align: center;
+        }
+
+        .heading 
+            {
+                Font-size: 35px
+                Text-transform: uppercase;
+
+        }
