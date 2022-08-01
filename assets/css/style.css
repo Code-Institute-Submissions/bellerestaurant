@@ -189,7 +189,6 @@ h3 {
     Background-color: #fafafa;
     Margin: 200px;
     Box-shadow: rgba(0, 0, 0, .1);
-    Grid-template-columns: 40% 60%;
     }
 
     .time-container {
@@ -202,7 +201,19 @@ h3 {
 
         .heading 
             {
-                Font-size: 35px
+                Font-size: 35px;
                 Text-transform: uppercase;
 
+        }
+
+        .btn{
+            width: 100%;
+            padding: 0.5rem 0.9rem;
+            background-color: orchid;
+            color: #fff;
+            font-size: 1.3rem;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            transition: .3s;
         }
