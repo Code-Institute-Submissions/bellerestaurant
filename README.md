@@ -56,6 +56,9 @@ The background image is an image of three pizzas, with my image text including t
 
 The navigation bar stretches 100% of the screen, as does the images in the webpage. This is to ensure that it is seen on every device. When you hover over the navbar titles, you will notice each title underlines. This is to help with visibility of the nav bar. 
 
+
+<img src="/workspace/bellerestaurant/assets/images./Screenshot 2022-08-10 at 11.54.53.png">
+
 <em>Webpage Content</em>
 
 In my webpage, additional contents I have added include : a link to a Youtube video provided by Jamie Oliver’s account - https://www.youtube.com/watch?v=1-SJGQ2HLp8&t=1s. This was to learn how to add a Youtube video to a webpage, but also to add a fun interactive piece for the user to enjoy. 
@@ -65,6 +68,8 @@ I have included a map from Google Maps which pinpoints where the restaurant is i
 I have added three images - one being an image of three pizzas, one being an image of a man cooking in the kitchen, another being a shrimp pizza. These were to add aesthetically pleasing elements to my website, and to split up the content. It would also be intended that the images would entice customers to visit & try the food shown.
 
 I have also included social media links to promote the business on social media as part of the social media marketing strategy and campaign. 
+
+<>
 
 <em>Forms</em>
 
