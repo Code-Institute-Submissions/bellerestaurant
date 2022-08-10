@@ -138,7 +138,7 @@ transform: scale(1);
     background-color: rgba(180, 15, 13, 0.7);
 
     bottom: 30px;
-    right: 150px;
+    right: 30px;
 
     position: absolute;
 }
@@ -187,26 +187,26 @@ h3 {
     line-height: 30px;
 }
 
-#booking {
+.time-container {
     Background-color: #d5d5d5;
-    Margin: 200px;
-    Box-shadow: rgba(0, 0, 0, .1);
+    Padding:50px;
+    Outline: 5px dashed #e96914;
+    Outline-offset: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
     }
 
-    .time-container {
-        Background-color: #d5d5d5;
-        Padding:50px;
-        Outline: 5px dashed #e96914;
-        Outline-offset: 20px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        }
 
-
+#booking {
+    Background-color: #d5d5d5;
+    Box-shadow: rgba(0, 0, 0, .1);
+    justify-content: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
 
         .review-container {
             background-color: #d5d5d5;
@@ -254,7 +254,7 @@ h3 {
             background-color: rgb(237, 236, 234);
             color: #d5d5d5;
             padding-top: 1.5rem;
-            min-width: 100%;
+            width: 100%;
             margin-top: .5rem;
             margin-bottom: 1rem;
             
