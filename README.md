@@ -125,4 +125,26 @@ I found no issues with the responsiveness of my website on any of these platform
 
 
 
-<strong>Website Deployment</strong>
+
+
+<em>W3 Validation Testing</em>
+
+In testing my website on the W3 HTML markup validator and CSS validator, I was able to discover nearly no errors in HTML (except one that I am very unsure of - I am pretty sure it could be a mistake by the validator).
+
+<img src="/workspace/bellerestaurant/assets/images./Screenshot 2022-08-10 at 11.46.14.png">
+
+
+
+In testing my website on the CSS validator, I discovered no issues. 
+
+<img src="/workspace/bellerestaurant/assets/images./Screenshot 2022-08-10 at 11.03.46.png">
+
+<em>Sources</em>
+
+In helping build this website, I have chosen to acknowledge:
+www.codeinstitute.net
+www.w3schools.com
+https://developer.mozilla.org/
+www.validator.w3.org
+https://www.youtube.com/watch?v=1-SJGQ2HLp8&t=1s
+Traversy Media, YouTube, https://www.youtube.com/watch?v=JttTcnidSdQ&t=330s
