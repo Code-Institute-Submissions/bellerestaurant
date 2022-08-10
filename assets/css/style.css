@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Lato:ital@1&display=swap');
+
 body, html
 {
     Height: 100%;
@@ -9,8 +11,6 @@ body, html
     background-color: #d5d5d5;
     Line-height: 1.6em;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Lato:ital@1&display=swap');
 
 * {
     margin: 0;
@@ -197,10 +197,15 @@ h3 {
     text-align: center;
     }
 
+    .imgs {
+        height: 700px;
+        width: 100%;
+    }
+
 
 #booking {
     Background-color: #d5d5d5;
-    Box-shadow: rgba(0, 0, 0, .1);
+    Box-shadow: 10px 10px 5px grey;
     justify-content: center;
     display: grid;
     justify-content: center;
@@ -210,7 +215,7 @@ h3 {
 
         .review-container {
             background-color: #d5d5d5;
-            Box-shadow: rgba(214, 189, 25, 0.2);
+            Box-shadow: 10px 10px 5px grey;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             justify-content: center;
@@ -259,3 +264,5 @@ h3 {
             margin-bottom: 1rem;
             
        }
+
+     

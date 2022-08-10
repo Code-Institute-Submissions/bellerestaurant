@@ -1,111 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+INTRODUCTION
+MY WEBSITE’S GOALS
 
-Welcome caitlinfoxmurray,
+This webpage was built to bring attention to local people, tourists and the general population of people living in the west of Ireland to come and dine at Belle Restaurant in Doughiska, Co. Galway.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The main features were to allow the business to share their menu, information about themselves and to allow customers to book and leave a review.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+View Website Here
+Github Repository
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<strong>UX DESIGN<strong>
 
-`python3 -m http.server`
+	<em>User Stories:</em>
+1. As a new user, I want to be able to navigate through the website with ease.
+2. As a potential customer, I would like to see what the restaurant are willing to provide in relation to the food menu.
+3. As a new user, I would like to know where the restaurant is based.
+4. As a new user, I would like guidance on how to make a booking.
+5. As a new user, I would like to see contact details for the restaurant.
 
-A blue button should appear to click: _Make Public_,
+	<em>User Goals:</em>
+1. Find the webpage easy to use.
+2. Understand the information provided by the business.
+3. Use a visually appealing website.
+4. Submit a booking form and a review request.
+5. Submit a contact form.
 
-Another blue button should appear to click: _Open Browser_.
+<em>User Expectations</em>
+1. The website is easy to navigate using navbar & scroll on all types of screens.
+2. The ability to interact with the restaurant via booking forms, reviews in a quick and efficient manner.
+3. All information shown on website to be informative and clear.
+4. Provide an online welcoming environment in order to entice new customers in the area.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+	<em>Insight</em>
+In providing insight, I included the following to my website:
+1. A scrollable website for better user experience while navigating the page.
+2. A nav bar was used to set up to assist in navigating the webpage for the user. 
+3. Three images used to split up the various sections in order to make the webpage more user friendly and visually appealing.
+4. Booking and Reviews sections with easy to read placeholders. 
+5. Footer included a Google map of the Doughiska area, as well as the location of the restaurant. 
+6. Links to social media websites attached. The links will open Facebook, Instagram & Twitter in a separate tab - easy access to both webpages for the user. Attached twice in the webpage in order to attract and promote the links.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*WIREFRAME*
 
-To log into the Heroku toolbelt CLI:
+<strong>Webpage Features</strong>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<em>Home Page</em>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The home page consists of my title, header, my navbar, my first image and my image text. I wanted this to be very simple and aesthetically pleasing. I chose my background colour to be #d5d5d5 as I wanted a soft subtle background, with the font colour being #3a3a3a to contrast the darker colour with the lighter. This made the font easier to read. I chose Late as my font-family with a font weight of 400 to also add contrast to the words.
 
-------
+My NavBar consisted of the 5 sections of my webpage - Home (index.html); Food Menu (#foodmenu); Bookings (#booking); Reviews (#review-container); Contact (#contact). This was to allow users to tap on the section they would like to find.
 
-## Release History
+The background image is an image of three pizzas, with my image text including the name of the restaurant as well as the location and a logo. The red colour of the image text was to contrast with the #d5d5d5 background, as well as to blend into the colours of the image behind it. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The navigation bar stretches 100% of the screen, as does the images in the webpage. This is to ensure that it is seen on every device. When you hover over the navbar titles, you will notice each title underlines. This is to help with visibility of the nav bar. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<em>Webpage Content</em>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+In my webpage, additional contents I have added include : a link to a Youtube video provided by Jamie Oliver’s account - https://www.youtube.com/watch?v=1-SJGQ2HLp8&t=1s. This was to learn how to add a Youtube video to a webpage, but also to add a fun interactive piece for the user to enjoy. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+I have included a map from Google Maps which pinpoints where the restaurant is in Doughiska, Co. Galway. This is to encourage people to visit, as it is very easy to figure out the distance / route to the restaurant by using Google Maps. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+I have added three images - one being an image of three pizzas, one being an image of a man cooking in the kitchen, another being a shrimp pizza. These were to add aesthetically pleasing elements to my website, and to split up the content. It would also be intended that the images would entice customers to visit & try the food shown.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+I have also included social media links to promote the business on social media as part of the social media marketing strategy and campaign. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<em>Forms</em>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+In doing this website, I wanted to include as many forms as possible in order to make the webpage more interactive with the user. The user can make a booking with the restaurant, and leave a friendly review for the restaurant to give feedback that may be used to promote the restaurant in future. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+In styling both the booking forms, I decided to add orchid as my colour as I found it very visually appealing and wanted to add a pop of colour to my project overall. The “Send” buttons are a darker shade to distinguish it from the rest of the form.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I wanted to add date and time elements to my project, so I did under bookings. Under reviews, I used placeholders as opposed to <p>s in order to create differences between the two forms.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<em>Contact</em>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+As stated above, I wanted to build a website where users could easily interact / engage with the content of the webpage instead of physically having to call / text / walk-in in order to get informations regarding booking, leaving a review, looking at the restaurant menu & searching for the location of the restaurant. It can all be found on the webpage. I also have a contact number attached for bookings & a contact email for queries that cannot be answered over call / website. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<strong>Technology Used in Building the Webpage</em>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+1. GitHub was the platform I used to build my website on. It was a very useful tool in building my CSS & HTML files on.
+2. CSS - I used CSS to style my website and emphasise the features of the website. This was a requirement as it is what I had studied.
+3. HTML5 - I primarily HTML5 for building the webpage and the layout. This was a requirement as it is what I had studied.
+4. Bootstrap - I used Bootstrap for the navbar and the footer mainly, as well as the social media links. This was a big help in pulling the project together.
+5. Font Awesome was used to avail of the icons (twitter, Facebook, instagram) I wanted to implement in my code. This was a great help in styling my code.
+6. Google Fonts was a great tool in order to allow me to style my fonts. This added definition and style to the words in my website.
+7. W3C CSS and HTML Validation Service was used to spot any errors in my code. Unfortunately at the end, I struggled with a few HTML validations as I could not find where I was going wrong. 
 
-------
+<strong>Browser Compatability</strong>
 
-## FAQ about the uptime script
+The website was viewed among a series of browsers listed below in both mobile and desktop configuration in order to get an insight into what the user may see:
 
-**Why have you added this script?**
+1. Safari
+2. Chrome
+3. Internet Explorer
+4. Edge
+5. Firefox
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+<strong>Devices Used and Tested</strong>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+1. MacBook Pro
+2. iPhone XR
+3. Samsung Galaxy S8+
+4. iPhone 8
+5. iPad Air
+6. Galaxy Fold
+7. Pixel 5
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<strong>My Webpage Issues / BUGS</strong>
 
-**So….?**
+1. Resolved - I had a hard time with the form because I struggled with the label for element. It showed up on my validation report as “The for attribute of the label element must refer to a non-hidden form control”. I wasn’t too sure if it was serious, and couldn’t find any answers online. As I didn’t want to take it out - I decided to leave it in as it was a crucial part of my webpage. In response to this, I changed the initial code to leave a text box to help with bookings. It unfortunately didn’t look as appealing, but the code passed the verification.
+2. Resolved - I initially had a very difficult time attaching my images to the CSS folder. It took me about four days to attach it. I was confused by GitHubs U, A and M symbols. The W3 website, as well as Stack Overflow greatly helped.
+3. Unresolved - I tried to link a Youtube video to my webpage but for some reason couldn’t figure out how to incorporate it in via code.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
-
-![three-pizzas](https://user-images.githubusercontent.com/106196417/182088262-b2d1c787-d5dd-410a-9cbb-8bf9d447e821.jpeg)
-
+<strong>Website Deployment</strong>
+mmit -a
