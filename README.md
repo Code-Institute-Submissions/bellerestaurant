@@ -1,5 +1,5 @@
-INTRODUCTION
-MY WEBSITE’S GOALS
+<strong>INTRODUCTION</strong>
+<em>MY WEBSITE’S GOALS</em>
 
 This webpage was built to bring attention to local people, tourists and the general population of people living in the west of Ireland to come and dine at Belle Restaurant in Doughiska, Co. Galway.
 
@@ -110,16 +110,19 @@ The website was viewed among a series of browsers listed below in both mobile an
 6. Galaxy Fold
 7. Pixel 5
 
+I found no issues with the responsiveness of my website on any of these platforms or devices.
+
 
 <strong>My Webpage Issues / BUGS</strong>
 
-1. Resolved - I had a hard time with the form because I struggled with the label for element. It showed up on my validation report as “The for attribute of the label element must refer to a non-hidden form control”. I wasn’t too sure if it was serious, and couldn’t find any answers online. As I didn’t want to take it out - I decided to leave it in as it was a crucial part of my webpage. In response to this, I changed the initial code to leave a text box to help with bookings. It unfortunately didn’t look as appealing, but the code passed the verification.
-2. Resolved - I initially had a very difficult time attaching my images to the CSS folder. It took me about four days to attach it. I was confused by GitHubs U, A and M symbols. The W3 website, as well as Stack Overflow greatly helped.
-3. Unresolved - I tried to link a Youtube video to my webpage but for some reason couldn’t figure out how to incorporate it in via code.
+1. *****Unresolved - I can not get the screenshots of my validator results to attach to this readme file. I have them in assets, under "images.". I cannot seem to figure out how to insert them in here, despite having done it multiple times in my HTML folder.
+2. Resolved - I had a hard time with the form because I struggled with the label for element. It showed up on my validation report as “The for attribute of the label element must refer to a non-hidden form control”. I wasn’t too sure if it was serious, and couldn’t find any answers online. As I didn’t want to take it out - I decided to leave it in as it was a crucial part of my webpage. In response to this, I changed the initial code to leave a text box to help with bookings. It unfortunately didn’t look as appealing, but the code passed the verification.
+3. Resolved - I initially had a very difficult time attaching my images to the CSS folder. It took me about four days to attach it. I was confused by GitHubs U, A and M symbols. The W3 website, as well as Stack Overflow greatly helped.
+4. Unresolved - I tried to link a Youtube video to my webpage but for some reason couldn’t figure out how to incorporate it in via code. Unfortunately, due to my best efforts, I had to take out the video.
 
+<img src=">
 
 
 
 
 <strong>Website Deployment</strong>
-mmit -a
