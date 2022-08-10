@@ -189,7 +189,6 @@ h3 {
 
 #booking {
     Background-color: #d5d5d5;
-    font-size: 150%;
     Margin: 200px;
     Box-shadow: rgba(0, 0, 0, .1);
     justify-content: center;
@@ -207,15 +206,7 @@ h3 {
         text-align: center;
         }
 
-        .form {
-            max-width: 1000px;
-            display: grid;
-            grid-template-columns: none;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        
+
 
         .review-container {
             background-color: #d5d5d5;
